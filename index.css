@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+} 
+
+header {
+    background-image: url('Images/coffee-header.jpg');
+    background-size: cover;
+    margin: 0 auto;
+    width: 500px;
+    color: white;
+}
+
+h1 {
+    margin-top: 0px;
+    text-shadow: 1px 1px 5px black;
+    
+}
+
+.title {
+    margin-bottom: 0px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.punch-line {
+    margin-top: 0px;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+.title,
+.punch-line {
+    padding-left: 45px;
+}
+
+/* Second Section  */
+
+img {
+    width: 85px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.container {
+    width: 450px;
+    margin: 0 auto;
+    
+}
+.menu-section {
+  display: block; 
+  
+}
+
+.menu-details {
+   display: flex;
+   border-bottom: 1px solid #D2D2D2;
+   margin-bottom: 10px; 
+}
+
+.menu-name {
+    font-size: 15px;
+}
+
+.ingredients {
+    font-size: 10px;
+    margin-top: 5px;
+    color: #8B8B8B;
+}
+
+.menu-name,
+.ingredients {
+    margin-bottom: 0px;
+}
+
+.price {
+    font-size: 13px;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+.menu-details button {
+    margin-left: auto;
+    align-self: center;
+    border-radius: 50%;
+    border: 1px solid #DEDEDE;
+    padding: 8px 13px;
+    background: none;
+}
+
+/* cart section */
+
+.cart-title {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.cart-title,
+.cart-section-container h2,
+.total-section h2 {
+    font-size: 15px;
+}
+.cart-section {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.cart-section-container h2,
+.cart-section p,
+.total-section h2,
+.total-section p {
+    margin: 0px;
+}
+
+.cart-section-container h2 {
+    margin-right: 5px;
+}
+
+.cart-section p,
+.total-section p {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+
+
+.remove-btn {
+    background: none;
+    font-size: 10px;
+    border: none;
+    color: #BBBBBB;
+}
+
+.cart-section-container {
+    border-bottom: 2px solid #393333;
+    display: block;
+}
+
+.total-section {
+    display: flex;
+    margin-top: 10px;
+}
+
+.order-btn-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.order-btn {
+    padding: 15px 170px;
+    color: white;
+    font-weight: bold;
+    background: #16DB99;
+    border: none;
+    font-size: 15px;    
+}
+
+.hide {
+    display: none;
+}
+
+/* Popup section */
+
+.pop-up-section {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: white;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0px 0px 50px black;
+}
+
+input {
+    padding: 10px 120px 10px 10px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.btn-pay {
+    margin: 20px 0px;
+    padding: 15px 150px;
+    color: white;
+    background: #16DB99;
+    border: none;
+}
+
+.close {
+   align-self: center;
+   margin-left: auto;
+   margin-right: 5px;
+   border: none;
+   padding: 5px 10px;
+}
+
+.ty-message {
+    font-size: 20px;
+    color: #065F46;
+    background: #ECFDF5;
+    padding: 50px 30px;
+}
+
+.last-section {
+    text-align: center;
+}
+

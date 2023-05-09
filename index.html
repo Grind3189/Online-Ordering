@@ -1,0 +1,68 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <!-- Title -->
+        <header>
+                <h1 class="title">Viannell Coffee Shop</h1>
+                <h1 class="punch-line">The Best Coffee and Pasta in Town</h2>
+        </header>
+        
+        <!-- Menus -->
+        <main>
+            <div class="menu-section container" id="menu-section">
+            </div>
+        </main>
+        
+        <!-- Added to Cart -->
+        <section class="hide" id="cart-section">
+            <div class="container">
+                <h2 class="cart-title">Your order</h2>
+            </div>
+            <div class="container cart-section-container" id="cart-section-container">
+            </div>
+            <div class="container total-section">
+                <h2>Total price:</h2>
+                <p class="total-price" id="total-price"></p>
+            </div>
+            <div class="order-btn-container">
+                <button class="order-btn" id="order-btn">Complete order</button>
+            </div>
+        </section>
+        
+        <section>
+            <div class="pop-up-section" id="pop-up-section">
+                <button class="close" id="btn-close">X</button>
+                <h2>Enter card details</h2>
+                <form id="payment-form">
+                    <input 
+                    type="text"
+                    name="fullName"
+                    placeholder="Enter your name"
+                    required>
+                    <input 
+                    type="text"
+                    name="cardNumber"
+                    placeholder="Enter card number"
+                    required>
+                    <input 
+                    type="text"
+                    name="cvv"
+                    placeholder="Enter CVV"
+                    required>
+                    <button class="btn-pay" id="btn-pay">Pay</button>
+                </form>
+            </div>
+        </section>
+        
+        <div class="container last-section" id="last-section">
+        </div>
+        
+        
+        
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
